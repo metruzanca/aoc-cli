@@ -1,3 +1,14 @@
+# Fork information
+
+Really liked the work of [GreenLightning/advent-of-code-downloader](https://github.com/GreenLightning/advent-of-code-downloader). I however wanted more features and tigher integration with how I want my AOC repo to work so I decided to just fork it.
+
+Planned features:
+- `init` command that generates local config with default path
+- Downloading for previous years always runs `mkdir -p` first so you don't get fs errors.
+- Some kind of recipe system to `aoc-cli add "language_name"` and get it setup real nice and quick.
+- Opinionated file structure. See my [metruzanca/aoc](https://github.com/metruzanca/aoc)
+
+
 # Advent of Code Downloader
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/GreenLightning/advent-of-code-downloader)](https://goreportcard.com/report/github.com/GreenLightning/advent-of-code-downloader)
